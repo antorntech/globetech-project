@@ -3,14 +3,15 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import logo from "../../images/logo.png";
 
 const Header = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">
-            Globe<span style={{ color: "orange" }}>Tech</span>{" "}
+          <Navbar.Brand as={Link} to="/home">
+            <img src={logo} alt="logo.png" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
