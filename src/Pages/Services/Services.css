@@ -1,0 +1,13 @@
+.moves {
+  width: 100px;
+  animation: movePlans 5s infinite linear;
+}
+
+@keyframes movePlans {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(920px);
+  }
+}
