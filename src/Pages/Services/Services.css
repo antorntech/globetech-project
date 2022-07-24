@@ -11,3 +11,18 @@
     transform: translateX(920px);
   }
 }
+
+@media screen and (max-width: 992px) {
+  .moves {
+    width: 100px;
+    animation: movePlans 3s infinite linear;
+  }
+  @keyframes movePlans {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(140px);
+    }
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/r6qWXd4/software-1.png",
+    "title": "Software Solution",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',"
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/M2cm0h7/image-3.png",
+    "title": "E-Commerce Solution",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/VxYpnCN/image-4.png",
+    "title": "ERP Solution",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/jZyqq2r/bulk-1.png",
+    "title": "Bulk SMS Service",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/TRPwnsc/image-5.png",
+    "title": "Graphic Design",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/4d9pDM2/image-6.png",
+    "title": "Digital Marketing",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',"
+  }
+]
