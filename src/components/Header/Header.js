@@ -4,10 +4,11 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import logo from "../../images/logo.png";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header">
       <Navbar collapseOnSelect expand="lg" bg="transparent" variant="dark">
         <Container>
           <Navbar.Brand as={Link} to="/home">
