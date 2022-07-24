@@ -1,0 +1,77 @@
+.hero-line #line1 {
+  margin-bottom: -20px;
+}
+
+.hero-line #line3 {
+  margin-top: -20px;
+}
+
+h1 span {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#caf130, #dff77f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: #28ace2;
+}
+
+.hero-btn {
+  background: linear-gradient(265.22deg, #def77d 0%, #d0f344 100%);
+  box-shadow: inset -8px -8px 16px #b6cc63,
+    inset 8px 8px 16px rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  border: 2px solid #b6cc63;
+  padding: 8px 25px;
+}
+
+#ourMissionBtn {
+  background: transparent;
+  box-shadow: none;
+  border: 2px solid #8fe5ff;
+  color: #8fe5ff;
+}
+
+.hero-banner img {
+  width: 420px;
+  height: 420px;
+}
+
+.move {
+  animation: movePlan 5s infinite linear;
+}
+
+@keyframes movePlan {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(450px);
+  }
+}
+
+.rotate {
+  animation: rotation 60s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 15px;
+  }
+  .hero-banner img {
+    width: 250px;
+    height: 250px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
