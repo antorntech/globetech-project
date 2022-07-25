@@ -5,6 +5,7 @@ import line3 from "../../images/Line 4.png";
 import plane from "../../images/fa_space-shuttle.png";
 import "./Services.css";
 import Service from "./Service/Service";
+import Header from "../../components/Header/Header";
 
 const Services = () => {
   const [services, setServices] = useState([]);
@@ -17,6 +18,7 @@ const Services = () => {
   }, []);
   return (
     <div className="container">
+      <Header></Header>
       <div className="row row-cols-1 py-3">
         <div className="col">
           <div className="d-flex align-items-center moves">
