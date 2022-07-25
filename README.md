@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [GlobeTech](https://globetech-app.netlify.app/).
+Live Site Link--- [GlobeTech](https://globetech-app.netlify.app/).
 
 ## Installed Packages---
 
