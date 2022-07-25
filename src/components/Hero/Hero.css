@@ -24,6 +24,13 @@
   border-radius: 4px;
   border: 2px solid #b6cc63;
   padding: 8px 25px;
+  transition: all 0.5s;
+}
+
+#supportUsBtn:hover {
+  color: #fff;
+  background: transparent;
+  box-shadow: none;
 }
 
 #ourMissionBtn {
@@ -31,6 +38,12 @@
   box-shadow: none;
   border: 2px solid #8fe5ff;
   color: #8fe5ff;
+  transition: all 0.8s;
+}
+
+#ourMissionBtn:hover {
+  background-color: #8fe5ff;
+  color: #000;
 }
 
 .hero-banner img {

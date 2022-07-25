@@ -40,7 +40,9 @@ const Hero = () => {
                 offer a broad range and depth of technology.
               </p>
               <div>
-                <button className="hero-btn me-lg-4">Support Us</button>
+                <button className="hero-btn me-lg-4" id="supportUsBtn">
+                  Support Us
+                </button>
                 <button className="hero-btn" id="ourMissionBtn">
                   Our Mission
                 </button>
