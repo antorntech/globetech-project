@@ -40,8 +40,8 @@ const Services = () => {
         </div>
       </div>
       <header className="text-center text-white mt-3">
-        <h1>Services</h1>
-        <p className="text-white">We provides services to our clients</p>
+        <h1 className="fs-5 text-uppercase">Services</h1>
+        <p className="text-white fs-2">We provides services to our clients</p>
       </header>
       <div class="row row-cols-1 row-cols-md-3 g-4 py-3">
         {services.map((service) => (
