@@ -15,3 +15,5 @@ Live Site Link--- [GlobeTech](https://globetech-app.netlify.app/).
 ### 2. Services
 
 ### 3. Login
+
+### This site is responsive for mobile and desktop only.
