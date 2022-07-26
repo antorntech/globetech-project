@@ -23,7 +23,7 @@ const Login = () => {
   };
   return (
     <div className="container-fluid">
-      <div className="row">
+      <div className="row row-cols-1 row-cols-lg-2">
         <div className="col-lg-4">
           <div className="login-left text-center pt-3">
             <h1>

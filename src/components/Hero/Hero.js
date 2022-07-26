@@ -8,8 +8,8 @@ import space from "../../images/gelaxy.png";
 
 const Hero = () => {
   return (
-    <div className="container pt-5">
-      <div className="row row-cols-1 row-cols-lg-2 d-flex align-items-center ">
+    <div className="container pt-2 pt-lg-5">
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 d-flex align-items-center ">
         <div className="col">
           <div className="hero-content">
             <div className="d-flex align-items-center move">
@@ -25,11 +25,11 @@ const Hero = () => {
                 </div>
               </div>
               <div>
-                <img src={plane} alt="" />
+                <img id="plane" src={plane} alt="" />
               </div>
             </div>
             <div className="mt-4">
-              <h1 style={{ color: "#28ACE2", fontSize: "72px" }}>
+              <h1 style={{ color: "#28ACE2" }}>
                 Welcome to <span>Globetech</span>
               </h1>
               <p>
@@ -40,7 +40,10 @@ const Hero = () => {
                 offer a broad range and depth of technology.
               </p>
               <div>
-                <button className="hero-btn me-lg-4" id="supportUsBtn">
+                <button
+                  className="hero-btn me-2 me-md-4 me-lg-4"
+                  id="supportUsBtn"
+                >
                   Support Us
                 </button>
                 <button className="hero-btn" id="ourMissionBtn">

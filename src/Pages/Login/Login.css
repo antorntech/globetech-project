@@ -85,3 +85,26 @@ input[type="text"]:focus {
   bottom: 75px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 992px) {
+  .login-left {
+    height: 30vh;
+  }
+
+  .login-right {
+    height: 50vh;
+  }
+
+  .login-form {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 280px;
+    padding: 25px 20px;
+  }
+
+  .back-icon {
+    bottom: 20px;
+  }
+}
